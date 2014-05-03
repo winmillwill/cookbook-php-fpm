@@ -36,7 +36,7 @@ default['php-fpm']['pools'] = [
     :name => "www"
   }
 ]
-default['php-fpm']['package_name'] = ""
-default['php-fpm']['service_name'] = ""
+default['php-fpm']['package_name'] = nil
+default['php-fpm']['service_name'] = nil
 default['php-fpm']['yum_url'] = "http://rpms.famillecollet.com/enterprise/$releasever/remi/$basearch/"
 default['php-fpm']['yum_mirrorlist'] = "http://rpms.famillecollet.com/enterprise/$releasever/remi/mirror"

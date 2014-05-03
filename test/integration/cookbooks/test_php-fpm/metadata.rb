@@ -1,0 +1,10 @@
+name             'test_php-fpm'
+maintainer       ''
+maintainer_email ''
+license          ''
+description      'Installs/Configures test_php-fpm'
+long_description 'Installs/Configures test_php-fpm'
+version          '0.1.0'
+
+depends  'php-fpm'
+depends  'apt'

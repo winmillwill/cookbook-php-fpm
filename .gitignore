@@ -5,3 +5,5 @@ metadata.json
 
 .sandbox
 .bundle
+.kitchen/
+.kitchen.local.yml

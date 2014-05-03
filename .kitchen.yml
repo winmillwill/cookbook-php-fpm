@@ -1,0 +1,20 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-12.04
+  - name: centos-6.4
+
+suites:
+  - name: default
+    run_list:
+      - recipe[test_php-fpm::default]
+    attributes:
+      php-fpm:
+        pools:
+          - name: www
+            listen: '127.0.0.1:9000'
